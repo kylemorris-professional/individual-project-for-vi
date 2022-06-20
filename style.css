@@ -1,0 +1,133 @@
+/* 
+green #139487
+blue #86C6F4 
+light-beight #FFF1CE
+brown #D29D2B
+
+https://colorhunt.co/palette/13948786c6f4fff1ced29d2b
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+    
+    background-color: #86C6F4;
+    color: black;
+
+}
+ a {
+     text-decoration: none;
+ }
+
+
+
+#hero {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    height: 780px;
+    background-image: url(./images/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode:multiply;
+    background-color: #86C6F4;
+    color: white;
+    text-align: center;
+}
+/* 
+.hero-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
+
+.second-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #f5fcff;
+
+}
+
+.silo {
+    background-color: white;
+    margin: 26px;
+    background-color: #139487;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+.silo > h2 {
+    border-bottom: 1px solid black;
+}
+
+.name {
+    text-align: center;
+    color: white;
+}
+
+span {
+
+}
+
+.btn {
+    display: inline;
+    padding: 0 2em;
+    background-color: #139487; 
+    text-transform: uppercase;
+}
+
+.cta {
+    
+    
+    
+    
+}
+
+.logo {
+    /* float: left; */
+    
+}
+
+.descripter-bar {
+    padding-top: 9em;
+    /* padding: 1em; */
+    font-size: 20px;
+}
+
+.descripter-bar-last-items {
+    padding: 20px;
+}
+
+.descripter-bar-items {
+    padding: 20px;
+    border-right: 1px solid white;
+    
+}
+
+.form-ctrl {
+    padding: 1em;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1em;
+    row-gap: 3em;
+
+}
+
+img {
+    height: 100%;
+}
+
+.portfolio-grid-item {
+
+    border: thick double #D29D2B;
+   
+   
+}
+
+ 
